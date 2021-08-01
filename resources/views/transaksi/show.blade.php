@@ -195,7 +195,7 @@
                         <h4 class="title" style="font-weight : bold;">Upload Bukti Pembayaran</h4>
                     </div>
                     <div class="card-body">
-                        <div class="table-responsive">
+                        <div class="table">
                             <table class="table table-borderless">
                                 <tbody>
                                     <form action="{{ route('transaksi.update', $itemorder->cart->id) }}" method="POST"
