@@ -26,11 +26,11 @@
                 @endif
                 <div class="row mb-2">
                     <div class="col col-12 mb-2">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="title" style="font-weight : bold;">Produk Pesanan Anda</h4>
+                        <div class="card border-0">
+                            <div class="card-header border-0">
+                                <h4 class="title" style="font-weight : bold; color: #fff;">Produk Pesanan Anda</h4>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body border-0">
                                 <table class="table table-borderless">
                                     <thead>
                                         <tr>
@@ -66,11 +66,11 @@
                         </div>
                     </div>
                     <div class="col col-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="title" style="font-weight : bold;">Alamat Pengiriman</h4>
+                        <div class="card border-0">
+                            <div class="card-header border-0">
+                                <h4 class="title" style="font-weight : bold; color: #fff;">Alamat Pengiriman</h4>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body border-0">
                                 <div class="table-responsive">
                                     <table class="table table-borderless">
                                         <thead>
@@ -111,7 +111,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="card-footer">
+                            <div class="card-footer border-0">
                                 <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                                     <button class="btn pull-left">
                                         <a href="{{ route('alamatpengiriman.index') }}">
@@ -125,11 +125,11 @@
                 </div>
             </div>
             <div class="col col-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Ringkasan</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">Ringkasan</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <table class="table table-borderless">
                             {{-- <tr>
                                 <td>No Invoice</td>
@@ -152,7 +152,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer border-0">
                         <form action="{{ route('transaksi.store') }}" method="post">
                             @csrf()
                             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

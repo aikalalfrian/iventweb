@@ -78,14 +78,14 @@
                                                     <label class="control-label" for="date"
                                                         style="font-weight : bold;">Tanggal Mulai</label>
                                                     <input class="form-control" id="date-mulai" name="date_mulai"
-                                                        placeholder="MM/DD/YYY" type="date" />
+                                                        placeholder="MM/DD/YYY" type="date" required />
                                                 </div>
                                                 <div class="form-group">
                                                     <!-- Date input -->
                                                     <label class="control-label" for="date"
                                                         style="font-weight : bold;">Tanggal Selesai</label>
                                                     <input class="form-control" id="date-selesai" name="date_selesai"
-                                                        placeholder="MM/DD/YYY" type="date" />
+                                                        placeholder="MM/DD/YYY" type="date" required />
                                                 </div>
                                             </form>
                                             <!-- Form code ends -->

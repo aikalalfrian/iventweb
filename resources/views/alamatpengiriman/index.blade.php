@@ -4,11 +4,11 @@
     <div class="container">
         <div class="row">
             <div class="col col-12 mb-2">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card border-0">
+                    <div class="card-header border-0">
                         <div class="row">
                             <div class="col">
-                                <h4 class="title" style="font-weight : bold;">Alamat Pengiriman</h4>
+                                <h4 class="title" style="font-weight : bold; color: #fff;">Alamat Pengiriman</h4>
                             </div>
                             <div class="col-auto">
                                 <button class="btn pull-right">
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table-responsive">
                             <table class="table table-borderless">
                                 <thead>
@@ -68,13 +68,13 @@
                 </div>
             </div>
             <div class="col col-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">
                             Form Alamat Pengiriman
                         </h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         @if (count($errors) > 0)
                             @foreach ($errors->all() as $error)
                                 <div class="alert alert-warning">{{ $error }}</div>

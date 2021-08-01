@@ -24,11 +24,11 @@
                 @endif
             </div>
             <div class="col col-lg-8 col-md-8 mb-2">
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Daftar Pesanan</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">Daftar Pesanan</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table-responsive">
                             <table class="table table-borderless">
                                 <thead>
@@ -80,17 +80,17 @@
                             </table>
                         </div>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer border-0">
                         <button class="btn">
                             <a href="{{ route('transaksi.index') }}">Tutup</a>
                         </button>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Alamat Pengiriman</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">Alamat Pengiriman</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table-responsive">
                             <table class="table table-borderless">
                                 <thead>
@@ -120,11 +120,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Transfer</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold;  color: #fff;">Transfer</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table-responsive">
                             <table class="table table-borderless">
                                 <thead>
@@ -145,11 +145,11 @@
                 </div>
             </div>
             <div class="col col-lg-4 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Ringkasan</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">Ringkasan</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table-responsive">
                             <table class="table table-borderless">
                                 <tbody>
@@ -190,11 +190,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="title" style="font-weight : bold;">Upload Bukti Pembayaran</h4>
+                <div class="card border-0">
+                    <div class="card-header border-0">
+                        <h4 class="title" style="font-weight : bold; color: #fff;">Upload Bukti Pembayaran</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body border-0">
                         <div class="table">
                             <table class="table table-borderless">
                                 <tbody>
@@ -204,9 +204,10 @@
                                         @method('PUT')
                                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                                             <label class="file">
-                                                <input type="file" id="file" name="bukti_pembayaran"
+                                                <input type="file" id="file" name="bukti_pembayaran" required
                                                     aria-label="File browser example">
                                                 <span class="file-custom"></span>
+                                                <div style="margin-top: 20px;" id="file-upload-filename"></div>
                                             </label>
                                         </div>
                                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
