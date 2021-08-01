@@ -20,7 +20,6 @@
                                     alt="image" id="Myimg">
                             </div>
                             <div class="blog-detail">
-
                                 <div class="main-sidebar">
                                     <div class="single-widget category">
                                         <h2 class="blog-title">{{ $product->name }}</h2>
@@ -30,11 +29,8 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -74,18 +70,20 @@
                             <div class="bootstrap-iso">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
                                             <!-- Form code begins -->
                                             <form method="post">
                                                 <div class="form-group">
                                                     <!-- Date input -->
-                                                    <label class="control-label" for="date">Mulai</label>
+                                                    <label class="control-label" for="date"
+                                                        style="font-weight : bold;">Tanggal Mulai</label>
                                                     <input class="form-control" id="date-mulai" name="date_mulai"
                                                         placeholder="MM/DD/YYY" type="date" />
                                                 </div>
                                                 <div class="form-group">
                                                     <!-- Date input -->
-                                                    <label class="control-label" for="date">Selesai</label>
+                                                    <label class="control-label" for="date"
+                                                        style="font-weight : bold;">Tanggal Selesai</label>
                                                     <input class="form-control" id="date-selesai" name="date_selesai"
                                                         placeholder="MM/DD/YYY" type="date" />
                                                 </div>

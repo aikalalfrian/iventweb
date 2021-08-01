@@ -83,9 +83,7 @@
                     <div class="col-12">
                         <div class="owl-carousel popular-slider">
                             <!-- Start Single Product -->
-
                             @foreach ($productVendor->shuffle() as $product)
-
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="{{ route('products.show', $product->id) }}">

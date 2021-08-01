@@ -5147,10 +5147,11 @@ h6 {
     background: #A2D5F2;
     color: #07689F;
     margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 40px;
     background: transparent;
-    border: 2px solid #E7E8E9;
+    /* border: 2px solid #E7E8E9; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .main-sidebar .single-widget {

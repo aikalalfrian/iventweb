@@ -72,7 +72,7 @@
                                 <div class="col-lg-2 col-md-2 col-12">
                                     <!-- Logo -->
                                     <div class="logo">
-                                        <a href="{{ route('home') }}"><img
+                                        <a href="{{ route('search') }}"><img
                                                 src="{{ asset('images/logo-ivent.png') }}" alt="logo"></a>
                                     </div>
                                     <!--/ End Logo -->
@@ -123,6 +123,9 @@
                                                         <li>
                                                             <a href="{{ route('transaksi.index') }}">Transaksi
                                                                 Anda</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ route('home') }}">Beranda Ivent</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ route('logout') }}"
