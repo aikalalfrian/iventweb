@@ -156,7 +156,6 @@
                 $(this).removeClass('transition');
             });
         });
-
     </script>
 </body>
 
