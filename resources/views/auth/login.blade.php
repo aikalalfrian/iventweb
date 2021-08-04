@@ -53,8 +53,8 @@
         <div class="col-6 kanan">
             {{-- kanan --}}
             <div class="welcome-text">
-                <p>Selamat Datang!</p>
-                <p>Silahkan login menggunakan akun anda</p>
+                <h1 class="title" style="font-weight: bold;">Selamat Datang!</h1>
+                <h3 class="title" style="margin-bottom: 20px;">Silahkan login menggunakan akun anda</h3>
             </div>
 
             <div class="card">
@@ -69,12 +69,6 @@
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
                                     name="email" value="{{ old('email') }}" required autocomplete="email" autofocus
                                     placeholder="Masukkan Alamat Emailmu...">
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                             </div>
                         </div>
 
@@ -86,14 +80,14 @@
                                 <input id="password" type="password"
                                     class="form-control @error('password') is-invalid @enderror" name="password"
                                     required autocomplete="current-password" placeholder="Masukkan Kata Sandimu...">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                             </div>
                         </div>
+
+                        @if (session()->has('error'))
+                            <div class="alert alert-danger text-center" style="margin-top: 50px; border-radius: 50px;">
+                                {{ session()->get('error') }}
+                            </div>
+                        @endif
 
                         <div class="form-btn-login row">
                             @if (Route::has('password.request'))

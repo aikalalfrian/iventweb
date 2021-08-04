@@ -53,8 +53,9 @@
         <div class="col-6 kanan">
             {{-- kanan --}}
             <div class="welcome-text">
-                <p>Selamat Datang!</p>
-                <p>Silahkan daftarkan akun anda untuk bergabung bersama kami</p>
+                <h1 class="title" style="font-weight: bold;">Selamat Datang!</h1>
+                <h3 class="title" style="margin-bottom: 20px;">Silahkan daftarkan akun anda untuk bergabung bersama kami
+                </h3>
             </div>
 
             <div class="card-register">
@@ -180,7 +181,6 @@
                 $(this).removeClass('transition');
             });
         });
-
     </script>
 </body>
 
