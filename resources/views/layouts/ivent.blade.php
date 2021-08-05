@@ -128,6 +128,10 @@
                                                             <a href="{{ route('home') }}">Beranda Ivent</a>
                                                         </li>
                                                         <li>
+                                                            <a href="{{ route('products.index') }}">Buka Toko
+                                                                Anda</a>
+                                                        </li>
+                                                        <li>
                                                             <a href="{{ route('logout') }}"
                                                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                                                 Keluar
