@@ -122,7 +122,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="section-title">
-                                    <h2>Detail Gambar Produk</h2>
+                                    <h2 style="margin-top: 50px;">Detail Gambar Produk</h2>
                                 </div>
                             </div>
                         </div>

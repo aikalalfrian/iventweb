@@ -93,7 +93,7 @@
                                     <div class="search-bar-top">
                                         <div class="search-bar">
                                             <select>
-                                                <option selected="selected">Kategori</option>
+                                                <option selected="selected">Semua Produk</option>
                                                 <option value="Vendor">Vendor</option>
                                                 <option value="Event Organizer">Event Organizer</option>
                                             </select>

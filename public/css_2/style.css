@@ -6314,6 +6314,16 @@ a.article:hover {
     margin: 20px 20px;
 }
 
+.modal-content {
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+    padding-right: 0 !important;
+    overflow-y: auto;
+}
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */

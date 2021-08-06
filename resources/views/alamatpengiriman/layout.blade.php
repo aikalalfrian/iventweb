@@ -92,11 +92,9 @@
                                     <div class="search-bar-top">
                                         <div class="search-bar">
                                             <select>
-                                                <option selected="selected">Kategori</option>
-                                                <option>Panggung</option>
-                                                <option>Alat Musik</option>
+                                                <option selected="selected">Semua Produk</option>
+                                                <option>Vendor</option>
                                                 <option>Event Organizer</option>
-                                                <option>Wedding Organizer</option>
                                             </select>
                                             <form action="/search/cari" method="GET">
                                                 <input name="cari"
